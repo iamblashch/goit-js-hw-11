@@ -1,7 +1,7 @@
 import './css/style.css';
-import { fetchImages } from './js/fetch-image.js';
-import { renderGallery } from './js/render-gallery.js';
-import { onScroll, onToTopBtn } from './js/scroll.js';
+import { fetchImages } from './js/fetch-images';
+import { renderGallery } from './js/render-gallery';
+import { onScroll, onToTopBtn } from './js/scroll';
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 
