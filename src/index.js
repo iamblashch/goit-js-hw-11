@@ -39,7 +39,7 @@ function onSearchForm(e) {
       if (data.totalHits === 0) {
         alertNoImagesFound();
       } else {
-        renderGallery(data.hits);
+        renderGallery(data.hits === query);
         simpleLightBox = new SimpleLightbox('.gallery a').refresh();
         alertImagesFound(data);
 
