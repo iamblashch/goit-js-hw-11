@@ -23,7 +23,7 @@ onToTopBtn();
 
 function onSearchForm(e) {
   e.preventDefault();
-  window.scrollTo({ top: 0 });
+  // window.scrollTo({ top: 0 });
   page = 1;
   query = e.currentTarget.searchQuery.value.trim();
   gallery.innerHTML = '';
