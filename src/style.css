@@ -9,7 +9,6 @@ body {
   align-items: center;
   gap: 10px;
   margin-bottom: 15px;
-  background-color: rgb(40, 151, 255);
   text-align: center;
 }
 .search-input {
@@ -23,7 +22,7 @@ body {
   width: 40px;
   height: 35px;
   border-radius: 5px;
-  background-color: white;
+  background-color: transparent;
   border: 2px solid gray;
   cursor: pointer;
 }
@@ -40,7 +39,7 @@ body {
   display: block;
   margin: 20px auto;
   padding: 10px 20px;
-  background-color: rgb(40, 151, 255);
+  border: 1px solid gray;
   border-radius: 3px;
   cursor: pointer;
 }
@@ -69,7 +68,6 @@ body {
 }
 
 .photo-card {
-  border: 2px solid grey;
   border-radius: 5px;
   background-color: rgb(251, 255, 255);
 }
